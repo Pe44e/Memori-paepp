@@ -73,3 +73,31 @@ coverage
 !.prettierrc.json
 !openclaw.plugin.json
 docs/memori-cloud/mcp/use-cases.mdx
+
+# Rust / native build artifacts
+target/
+core/target/
+*.dylib
+*.dll
+*.node
+*.pdb
+*.dSYM/
+*.rlib
+*.rmeta
+
+# Local runtime artifacts
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+.fastembed_cache/
+.benchmarks/
+.uv-cache/
+.venv-size-check/
+memori.db*
+memori_rust_core.db*
+memori_test.db*
+memori_python.abi3.so
+memori.egg-info/
+
+*.cache/
